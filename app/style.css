@@ -1,0 +1,91 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #ccccff}
+
+th {
+	width:250px;
+    background-color:#c2c2d6;
+    color: white;
+}
+.hb {
+    background-color: #7094db; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 #7575a3, 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.pad1{
+	padding-right:30px;
+	padding-left:30px;
+}
+.tshadow{
+	color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px lightblue;
+}
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+
+body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+
+  }
+  h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;
+      font-size: 20px;
+      color: #111;
+  }
+  textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    border-color: rgba(229, 103, 23, 0.8);
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(229, 103, 23, 0.6);
+    outline: 0 none;
+	background-color:yellow;
+}
+ 
+
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
